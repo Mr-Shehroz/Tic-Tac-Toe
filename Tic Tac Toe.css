@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #5B7553;
+}
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 130px;
+    width: 130px;
+    background-color: #8EB897;
+    border: none;
+    color: #C3E8BD;
+    font-size: 70px;
+}
+.board{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 130px 130px 130px;
+    gap: 5px;
+}
+.btn2 button{
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 15px;
+    border: none;
+}
+.btn button{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 15px;
+    border: none;
+}
+.hide{
+    display: none;
+}
+.msg{
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+}
+.msg-hide{
+    display: none;
+}
